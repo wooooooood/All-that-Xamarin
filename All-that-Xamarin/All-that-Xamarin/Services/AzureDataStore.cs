@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Xamarin.Essentials;
-using All_that_Xamarin.Models;
+using AllThatXamarin.Models;
 
-namespace All_that_Xamarin.Services
+namespace AllThatXamarin.Services
 {
     public class AzureDataStore : IDataStore<Item>
     {

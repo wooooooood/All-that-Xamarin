@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace All_that_Xamarin.Services
+namespace AllThatXamarin.Services
 {
     public interface IDataStore<T>
     {

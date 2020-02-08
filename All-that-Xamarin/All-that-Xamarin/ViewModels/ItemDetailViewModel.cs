@@ -1,8 +1,8 @@
 ﻿using System;
 
-using All_that_Xamarin.Models;
+using AllThatXamarin.Models;
 
-namespace All_that_Xamarin.ViewModels
+namespace AllThatXamarin.ViewModels
 {
     public class ItemDetailViewModel : BaseViewModel
     {
