@@ -4,9 +4,9 @@
        xmlns:d="http://xamarin.com/schemas/2014/forms/design"
        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
        mc:Ignorable="d"
-       xmlns:local="clr-namespace:All_that_Xamarin.Views"
+       xmlns:local="clr-namespace:AllThatXamarin.Views"
        Title="All_that_Xamarin"
-       x:Class="All_that_Xamarin.AppShell">
+       x:Class="AllThatXamarin.AppShell">
 
     <!-- 
         Styles and Resources 
@@ -33,6 +33,9 @@
     <TabBar>
         <Tab Title="Browse" Icon="tab_feed.png">
             <ShellContent ContentTemplate="{DataTemplate local:ItemsPage}" />
+        </Tab>
+        <Tab Title="Explore" Icon="tab_feed.png">
+            <ShellContent ContentTemplate="{DataTemplate local:ExplorePage}" />
         </Tab>
         <Tab Title="About" Icon="tab_about.png">
             <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />

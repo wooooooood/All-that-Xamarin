@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace All_that_Xamarin.Models
+namespace AllThatXamarin.Models
 {
     public class Item
     {

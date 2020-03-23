@@ -5,10 +5,10 @@ using System.Runtime.CompilerServices;
 
 using Xamarin.Forms;
 
-using All_that_Xamarin.Models;
-using All_that_Xamarin.Services;
+using AllThatXamarin.Models;
+using AllThatXamarin.Services;
 
-namespace All_that_Xamarin.ViewModels
+namespace AllThatXamarin.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {

@@ -2,10 +2,10 @@
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using All_that_Xamarin.Services;
-using All_that_Xamarin.Views;
+using AllThatXamarin.Services;
+using AllThatXamarin.Views;
 
-namespace All_that_Xamarin
+namespace AllThatXamarin
 {
     public partial class App : Application
     {
