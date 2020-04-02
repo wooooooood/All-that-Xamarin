@@ -13,9 +13,18 @@
                 FontAttributes="Bold"
                 Padding="5,0,5,0"
                 FontSize="Subtitle"/>
-            <Button x:Name="OpenMapButton"
+            <Button x:Name="OpenMap_Button"
                     Text="🚗 The way to MS building!"
                     Clicked="OnOpenMapButton_Clicked"/>
+            <Grid Padding="15"/>
+            <Label
+                Text="Dial"
+                FontAttributes="Bold"
+                Padding="5,0,5,0"
+                FontSize="Subtitle"/>
+            <Button x:Name="OpenDial_Button"
+                    Text="☎ Click to call.. to whom?"
+                    Clicked="OnOpenDialButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
